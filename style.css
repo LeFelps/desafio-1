@@ -26,10 +26,21 @@ body {
 }
 
 .form-container {
-    background-color: white;
-    padding: 30px;
+    background-color: white;    
     border-radius: 10px;
+    overflow: hidden;
     width: 500px;
+}
+
+.form-content {
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.form-button {
+    padding: 30px;
+    background-color: #F0F0F4;
+    border-top: 1px solid #F0F0F4;
 }
 
 h1 {
